@@ -1,0 +1,32 @@
+1. Neural Network:
+
+Neural Network is the network that contain nodes. Input for the one layer will be received from the output previous
+
+First layer is our input layer.
+last layer is our output layer.
+
+so the layer that is sitting in between is called "Hidden Layer"
+
+1. input layers: reads the input data.
+2. Hidden layer: Transformation and computations.
+3. output layer: prediction.
+
+Activation Function:
+
+process of making our input into non-linear aspects for the model to allow its pattern on complex data.
+
+Activation Method:
+
+1. Sigmoid function.
+2. ReLU function(Rectified Linear Unit function)
+3. softmax
+4. swish
+5. ELU (Exponential Linear Unit)
+6. prelu (parametrix ReLU)
+7. tanh (Hyperbolic Tangent)
+
+Hidden Layer:
+
+1. Linear Transformation.
+2. Non-Linear Transformation.
+

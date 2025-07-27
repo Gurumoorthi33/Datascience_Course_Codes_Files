@@ -1,0 +1,56 @@
+Train and Test:
+
+cross validation:
+
+cv = 5
+
+kFold, cv = 5
+
+import pandas as pd
+from sklearn.model_selection import cross_val_score, train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+
+data = pd.read_csv()
+
+x = data[[]]
+y = data[]
+
+model = LinearRegression()
+x_train,x_test,y_train,y_test = train_test_split(x,y,test_size = 0.2, random_state = 32)
+cross_val_check = cross_val_score(model,x_train,y_train,cv = 5, random_state = 42,scoring = "r2")
+print(cross_val_score.best_score_)
+
+model.fit(x_train,Y_train)
+prediction = model.predict(y_test)
+
+Types:
+
+1. kFold                          ----> Linear, Logistic
+2. Stratified K-Fold              ----> Logistic
+3. leave One out Cross Validation ----> Linear, Logistic
+4. Group K Fold Cross Validation  ----> Linear, Logistic
+
+Data distribution: Balanced data and Imbalanced data
+
+Balanced Data:
+
+1. Each class in the target variable approximately the same number of samples
+2. The distribution of classes is relatively even. no extra data
+
+Unbalanced Data:
+
+1. Some class will have more samples than others.
+2. The distribution of the class is not even.
+
+Fever  Cough Vomit  Corona
+ 1       1     1      1
+ 1       1     0      1
+ 0       0     1      0
+ 1       0     0      0
+
+ train:1000
+ corona:500
+ no corona:500
+
+

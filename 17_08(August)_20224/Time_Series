@@ -1,0 +1,53 @@
+Time Series:
+
+1. We generally had our input among strings and numbers.
+2. What if, we have our input but in the form of "date".
+2.1 If we read the csv file that contains data as it is, date column will be read as object.
+2.2 So when we try to apply some data based functionality, this won't work as expected.
+2.3 so whenever we know that, a particular column of our dataset is in datetime format.we have to make sure that
+we call that as datetime object while reading csv file.
+
+df = pd.read_csv("testing.csv", date_parser = ["Date_column"])
+
+Time Series:
+
+Date       Gold_price
+2024-01-01    5000
+2025-01-01    6000
+
+ARIMA: Auto Regressive, Integrated, Moving Average.
+
+using this only we will be predicting the next time series.
+
+
+Even in linear regression we use to find the future value based on datetime.the here in timeseries, we were
+predicting the similar kind of value. Then what is the Actual Difference??
+
+Time Series:
+1. It often predicts values on the past(lagged observations)
+2. It revolves around only certain aspects of our data(trend, seasonal, residue)
+
+LinearRegression:
+1. It often predicts based on the relationship between independent and dependent variables.
+2. we will pick some other input data also to predict.
+
+Why need to do the set_index especially during time series?
+
+1. set_index is used widely during time series manipulation because
+  1.1 It is easy for sampling(resample).
+  1.2 Shifting forward(lead observation) and backward(lagged observation).
+  1.3 It si easy for window calculation.
+  1.4 efficient date access (easy for accessing date on certain range).
+  1.5 Merging, Alignment, Visualize
+  1.6 It helps in setting it up in chronologically order.
+  1.7 Duplicates can be avoided.
+
+DataFrame.set_index(keys, drop=True, append=False, inplace=False, verify_integrity=False)
+
+ Parameters Explained
+- keys: Column name(s) or arrays to set as index.
+- drop: If True, removes the column(s) used as index from the DataFrame.
+- append: If True, adds the new index to the existing one instead of replacing.
+- inplace: If True, modifies the original DataFrame.
+- verify_integrity: If True, checks for duplicate index values.
+

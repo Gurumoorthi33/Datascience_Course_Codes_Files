@@ -1,0 +1,77 @@
+Unsupervised Learning
+
+It is the process of finding or predicting the output without knowing target label.
+We will be having set of inputs without any label.
+So using various clustering method we will be the finding the suitable group and label for that.
+
+Types of Clustering:
+
+1. Kmeans Clustering.
+2. Hierarchical Clustering.
+
+Clustering is the process of grouping the data which is scattered along the area.
+
+Kmeans --> Euclidean distance.
+
+Steps:
+
+we define the cluster k value, k = 2 means it will two clusters.
+we then appoint the centroids for each clusters.
+We pick and  check the closest clusters and whatever it is near by , put the data into the clusters.
+
+Code explanation:
+
+
+Hierarchical Clustering:
+1. Agglomerative Hierarchical clustering(bottom up).
+2. Divisive Hierarchical Clustering(Top down).
+
+1. Agglomerative Hierarchical clustering(bottom up).
+
+step 1: It consider each data point as a clusters.
+step 2: Merges the closest pair of clusters iteratively.
+step 3: "ward" distance metrics. (minimizes the clusters variance).
+step 4: It forms the level of clustering.
+
+Linkage():
+
+Is is the key components of hierarchical clustering.
+Is is needed to show the hierarchical clustering as it forms hierarchical clustering.
+by calculating the  distance between each clusters.
+linkage matrix is also be called as linkage method.
+Further, linkage() methods has various methods inbuilt to use.
+
+linkage(x, "single")
+linkage(x, "complete")
+linkage(x, "average")
+linkage(x, "ward")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

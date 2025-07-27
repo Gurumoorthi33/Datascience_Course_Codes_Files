@@ -1,0 +1,13 @@
+1. It separates the data points into several bunches or groups.
+2. based upon certain characteristics, shape , colour.
+3. distance between nearest point.
+
+Density based clustering.
+
+It uses two parameter:
+
+1. minPts ---> minimum number of points clustered together for a to be dense.
+2. eps ------> distance measure that is used to locate the neighbour point.
+
+Mechanism:
+Website : KDnuggets

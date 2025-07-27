@@ -1,0 +1,48 @@
+confusion_matrix(Only applicable for classification and Logistics problems)
+
+TN     FP
+
+FN     TP
+
+TN:
+Actual value    0
+predicted value 0
+
+FN:
+Actual value    1
+Predicted Value 0
+
+FP:
+Actual Value    0
+predicted Value 1
+
+TP:
+Actual Value    1
+predicted Value 1
+
+with this Confusion matrix we use for other metrics
+
+accuracy_check = (TP+FP)/(TP+FP+TN+FN)
+
+[[724   0]
+ [124   0]]
+
+(0 + 724) / (0 + 0 + 724 + 124) = 0.8537735849056604
+
+PRECISION = TP/TP + FP = 0/0 = 0
+
+Recall = TP / (TP+FN) = 0 / (0 + 124) = 0
+'''sklearn.metrics.recall_score(y_true, y_pred, *, labels=None,
+pos_label=1, average='binary', sample_weight=None, zero_division='warn')'''
+
+
+F1_SCORE = 2 * (precision * recall) / (precision + recall)
+
+Accuracy: Proportion between Actual Target and Predicted Target
+
+Precision: Positive Predicted Value(How many true positive values )
+
+recall: ( sensitive or True Positive Rate )
+
+F1_Score: Mean of Precision and recall ( When we have imbalanced Datasets )
+

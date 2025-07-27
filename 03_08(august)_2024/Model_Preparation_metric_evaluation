@@ -1,0 +1,91 @@
+1. Model Preparation
+
+1.1 Dataset
+1.2 Preprocessing
+1.3 Exploratory Data Analysis
+1.4 Data Wrangling(Removing Null sets)
+
+Feature Engineering
+
+PCA(Principal Component Analysis
+
+
+'''Train and Testing by Splitting.'''
+
+Training
+
+Datasets : X Datas and Y Data(Target)
+Model(FIT): It Trains with both X and Y datas
+Model(Prediction): Sent Some X data and Checks whether it is giving correct y data
+
+Year House Pricing
+Train
+x_train y_train
+2001   1000
+2002   2000
+2003   3000
+
+
+Test
+x_test
+2004
+
+Predict
+4000
+
+Flow Type of Input Data
+1. Linear data
+2. Non - Linear Data
+
+Corona Datasets
+
+Fever  Weightloss  cough  Tiredness  Corona_results
+---------------------------------------------------
+90        Yes       yes       yes       Positive
+80        no        no        yes       Negative
+
+Correlation function cannot give the accurate
+
+How do you prepare your model ? ---- Interview Questions
+
+1. To check the data first its is linear or non-linear
+
+Flow type of Output Data
+
+1. regression
+2. classificaton
+2.1 more than one type of classification
+example:Flower['setosa',Veronica,virginca]
+        blood group[A+,A-,AB+,O+,O-,AB-]   #Minary - Multifier
+
+
+
+Model and Algorithm:
+
+1. Linear Regression(continuous Data):
+from.sklearn.linear_model import LinearRegression
+
+2. Logistics Regressions(classification(Yes or No):
+from.sklearn.linear_model import LogisticsRegression
+
+
+How do we access or cross verify the model whether it is right or wrong ?
+
+metrics:
+
+1. classification:
+from sklearn.metrics import confusion_matrix,classification_report,accuracy_score
+
+2. Regression:
+from sklearn.metrics import r2_score, mean_square_error
+
+-----------------My Understanding Purpose----------------------------------
+
+- Predicting a number → use Linear Regression.
+- Classifying with probability → use Logistic Regression / Classifier.
+- Looking for raw decision function score → Linear Classifier (but why not just go logistic?)
+
+
+
+
+

@@ -1,0 +1,29 @@
+numerical = [col for col in X_train.columns if X_train[col].dtypes != 'O']
+
+
+
+The Robust Scaler is a preprocessing technique used to scale numerical features in a way that’s resistant to outliers—which is super handy when your data has extreme values that could skew other scalers like StandardScaler or MinMaxScaler.
+🔧 How It Works
+Instead of using the mean and standard deviation (like StandardScaler), RobustScaler uses:
+- Median: for centering the data
+- Interquartile Range (IQR): for scaling, which is the range between the 25th and 75th percentiles
+📐 Formula
+For each feature:
+X_scaled = (X - median) / IQR
+
+
+This keeps the middle 50% of the data within a consistent range and minimizes the influence of outliers.
+✅ When to Use It
+- Your dataset has outliers that you want to keep but not let dominate the scaling
+- You're using models sensitive to feature scales (e.g., SVM, KNN, logistic regression)
+- You want a more robust normalization than MinMax or StandardScaler
+
+Formula for Robust Scaler:
+X_scaled = (X - median) / IQR
+
+Coding:
+
+from sklearn.preprocessing import RobustScaler
+
+scaler = RobustScaler()
+X_scaled = scaler.fit_transform(X)

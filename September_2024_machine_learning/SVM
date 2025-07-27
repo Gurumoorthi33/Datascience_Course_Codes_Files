@@ -1,0 +1,23 @@
+1. It forms a hyperline to data to separate and it classifies the data.
+2. It is Used for both regressor and classifier.
+3. It can be also used for outlier detection.
+4. It assigns the data to the given category.
+5. Non-probabilistic binary linear classifier.
+
+
+Hyperplane:
+
+it is the decision boundary to do the classification.
+
+Support Vector:
+
+Data  points that is close to the hyperplane. This helps in separation.
+
+Margin:
+
+inbetween gaps.
+
+kernel(deciding linear or curved):
+
+Linear, sigmoid, polynomial
+

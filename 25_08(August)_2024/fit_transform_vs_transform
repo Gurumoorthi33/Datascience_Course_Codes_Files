@@ -1,0 +1,11 @@
+fit_transform(x)
+- Combines two actions: fitting (learning from x) and then transforming it.
+- Used on the training data because it:
+- Learns the internal patterns/statistics (e.g., calculates polynomial terms or scaling parameters).
+- Applies the transformation immediately after learning.
+- Think of it like:
+"Study your textbook thoroughly (fit), then write the test based on what you've learned (transform)."
+🔄 transform(x)
+- Only applies the transformation, using parameters learned from the previous fit.
+- Used on test data or new unseen data, to ensure consistency:
+- Doesn’t learn anything new—just uses the same logic/patterns captured during training.

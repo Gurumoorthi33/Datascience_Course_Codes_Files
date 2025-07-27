@@ -1,0 +1,131 @@
+1. Neural Network:
+
+Neural Network is network that contains nodes. Input for one layer will be received from the output of the previous layer
+First Layer is our input layer
+last Layer is our output layer
+
+So they layer that is sitting in between is called as "hidden layer"
+
+Layer Detailing:
+
+1. input layers : reads the input data
+
+2. Hidden Layers: Transformation and computations
+
+3. output Layers: prediction.
+
+Activation:
+
+process of making our input into non linear aspects for the model to allow its pattern on complex data.
+
+Activation Method:
+
+1. sigmoid
+2. reLU(Rectified Linear unit)
+3. softmax
+4. swish
+5. ELU (Exponential Linear UNIT)
+6. prelu (Parametric Relu)
+6. tanh(hyperbolic tangent)
+
+Hidden Layer:
+
+1. Linear Transformation
+2. Non-Linear Transformation
+3. Batch Normalization
+4. Dropout
+5. Representative learning
+6. weight learning
+
+Dense:
+
+It can be used especially from input to linear and then linear to non linear transformation
+It can be part of any layer inside the neuron
+
+Note: Dense layer helps us in extracting features from input data by applying linear transformation and by applying
+non-linear activation later.
+
+Dropout:
+
+Dropout is similar to our regularization technique in machine learning. to avoid over fitting we introduce
+certain penalty .
+
+Even deep learning has supervised and unsupervised paradigms.
+
+SuperVised:(Labelled)
+
+1. Image Classification
+2. Sentiment Analysis
+3. Regression'
+
+UnSupervised:(non labelled)
+
+1. Clustering
+2, Dimensionality Reduction
+3. Generative models
+
+Semi-Supervised
+Self-Supervised
+"------------------------------------------------------------------------------------------------"""
+
+1. Image Classification:
+
+Task: To identify the image whether is lion or tiger
+Mechanism : CNN - Convolutional neural network
+
+2. Sentiment Analysis:
+
+Task: to determine the sentiment whether it is positive or negative
+Mechanism : RNN - recurrent neural network
+
+3. Regression
+
+Task: House Prediction
+Mechansim: Dense Nerual Netowrks
+
+-------------------------------------------------------------------------------------------
+
+optimizer:
+
+optimozier is an algorthim that is used to update the weights of a model in order.
+to minimize the loss function.
+
+1. adam(Adaptive Moment Estimation)
+
+2. stochastic gradient descent(t-SNe)
+   It is the optimization algorthim that updates the model parameter based on the gradient of the oss with each param
+
+3. SGD with momentum
+4. Nesterov Accelerated Gradient
+5. AdaGrad
+6. RMSProp
+
+-------------------------------------------------------------------------------------------------------------------
+
+Machine Learning                                                                Deep Learning
+
+A subset of AI focussed on algorthim that learns                Subset of ML using neural network to model commplex data to predict
+from data to do predictions                                      pattern in data
+
+Requires data (usually lesser in size)                          Required data which is larger in size
+
+Manual feature engineering in needed to
+extra useful insights                                           feature extraction is automatic.
+
+Models can be simple linear, or comple ensemble                 models by general is complex, involves layers
+
+training time is less unless we do gridsearch                   training is slower since it deals with multi layer
+
+suitable for structured data                                    suitable for unstructured data
+
+linear regression,
+logistic regression,
+decision tree,svm and naive bayes and many                      cnn, rnn, gans.
+------------------------------------------------------------------------------------------
+
+Metrics will be common and similar to that of the machine learning except for the complexity in calculating.
+
+
+
+
+

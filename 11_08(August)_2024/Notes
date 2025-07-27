@@ -1,0 +1,40 @@
+Model Type:
+Supervised and unsupervised
+
+1. Supervised:
+       means we will having some x data and target y data
+       x data can be single or multiple
+
+    Types:
+     Linear_model:
+        1. LinearRegression(where the output is continuous)
+        2. LogisticRegression(Where the output is discrete(Binary))
+        Note: Even though Logistic find the categorical output still we categorize this as a regression because it
+              follows linearity along the input data.
+
+     Linear and Non_Linear model:
+            Classification:
+                 DecisionTree(Regressor or Classifier)
+                 RandomForest(Regressor or Classifier)
+                 Support Vector Machine(Regressor or Classifier(most used))
+                 KNN(K Nearest Neighbour)
+                 Naive Bayes(Probability Based prediction
+
+     Mechanism of code execution:
+            1. Take the Dataset.
+            2. Read the Dataset through the python.
+            3. Do the preprocessing and keep the data clean.
+                3.1 preprocessing includes EDA, Data Wrangling, Feature Engineering.
+            4. Train and test the data.
+                4.1 train the data with 80% and test teh with 20%
+                4.2 If model produces the poor result then do the following.
+                    4.2.1 Cross Validation
+                        4.2.1.1  K-Fold , Stratified K-Fold, (many more...)
+                        Note_1: Choose K-Fold for linear and choose stratified for classification
+                        Note_2: It is advised to go for stratified if the data is Imbalanced
+                        Note_3: When the Target data is not equal with respect with proportion then that is called
+                                as unbalanced data
+                        If cross Validation still produces the poor results do the following:
+                                4.3  HyperParameterTuning
+
+

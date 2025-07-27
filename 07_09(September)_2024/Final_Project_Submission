@@ -1,0 +1,24 @@
+1. python file (that contain code) ----> Gurumoorthi_supervised_KNN.py
+2. Text File (That contains details of the project) ----> Gurumoorthi_project_Document.txt
+3. CSV file (That you used for your input) -----> Guru_car_details.csv
+
+1. Choose your project as you wish.
+   1.1 share that via link about the project I choose.
+
+2. If i Wish to Show more than One project please do  it.
+
+3. min they need One project
+
+3.1 python files needed to be properly commented.
+3.2 python files needs to import proper library.
+3.3 Remove unwanted comments and print statements
+3.4 If they run the program it should the run without any change from there side.
+
+4.1 It should contain pandas, numpy, matplotlib, sklearn, seaborn, statsmodel, etch,.
+4.2 apply many subprocess as we can do.
+4.3 show the visualization for every preprocessing I doing.
+4.4 do training and testing.
+4.5 do cross validation.
+4.6 do hyperParameter Tuning
+4.7 model apply, fit and metrics.
+4.8 Final visualization.

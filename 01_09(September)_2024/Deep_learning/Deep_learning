@@ -1,0 +1,14 @@
+Machine Learning.
+Deep_learning.
+
+A algorithmic way to let my machine to learn the nuances of input data.
+
+1. if my data is in structured way I can go for machine learning.
+2. If My data is not in structured way then go for deep learning.
+
+in general anything we do as part of deep learning can't be achieved with machine learning.
+
+In general anything we do as part of machine learning can also be achieved with deep learning.
+
+import tensorflow
+import pytorch

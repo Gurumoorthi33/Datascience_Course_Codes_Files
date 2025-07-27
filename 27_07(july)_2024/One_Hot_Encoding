@@ -1,0 +1,25 @@
+Players    Team    Encoded_Labels
+
+Dhoni       csk         07
+Virat       rcb         18
+rohit       mi          45
+sanju       rr           0
+
+---------------------------------------------------------------------------------------------------------------
+
+Players    Team    Team_csk     Team_rcb     Team_mi     Team_rr
+
+Dhoni       csk         1          0           0            0
+Virat       rcb         0          1           0            0
+rohit       mi          0          0           1            0
+sanju       rr          0          0           0            1
+
+One Hot encoders means it gives the encodes like 1 's and 0 's only
+
+
+
+
+%load_ext sql
+%sql mysql+mysqlconnector://root:emperor%4033@localhost/test
+
+%%sql ---------> cell 2

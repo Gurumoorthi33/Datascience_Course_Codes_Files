@@ -1,0 +1,8 @@
+1. KNN by default involves expensive computation because it calculates distance for each point in the dataset.
+2. so if it is smaller dataset , then go for KNN
+3. when the count is around thousand of data.
+4. This is useful when we have data in similar scale.
+5. It is non-parametric method.
+6. It is used for recommendation system.(eg: suggesting one or more products)
+7. It can handle non-linear dataset.
+

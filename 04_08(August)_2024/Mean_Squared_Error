@@ -1,0 +1,66 @@
+Actual : [ 3, 5, 3, 8, 5]
+predict: [2.9, 4.8, 3, 7, 3.8]
+
+
+Calculation:
+
+(3 - 2.9) ---> 0.1 --> 0.01
+(5 - 4.8) ---> 0.2 --> 0.04
+(3 - 3)   ---> 0 ----> 0
+(8 - 7)   ---> 1 ----> 1
+(5 - 3.8) ---> 1.2 --> 1.44
+
+summation = (0.01 + 0.04 + 0 + 1 + 1.44)/5 ---> 0.498
+
+More it is low, then it is called best fit
+More it  is high , then it is called worst fit
+
+1. Imagine if the mean squared error is very high. It is high time to check the input.
+2. Sometime when the output  is of huge value, then it is better to do Normalization or standardization.
+
+from sklearn.preprocessing import StandardScaler , MinMaxScaler
+
+Note: Standardization or Normalization meaning isto make the data distribution normal by making mean around 0
+and std around 1.
+
+When to use StandardScaler() and MinMaxScaler()
+
+StandardScaler:
+If the data is normally distributed
+It can handle outlier(robust to outliers)
+
+MinMaxScaler:
+If the data is in specific range(0,1,2,3,4,5)
+
+'''Train and Testing by Splitting.'''
+
+Training
+
+Datasets : X Datas and Y Data(Target)
+Model(FIT): It Trains with both X and Y datas
+Model(Prediction): Sent Some X data and Checks whether it is giving correct y data
+
+Year House Pricing
+Train
+x_train y_train
+2001   1000
+2002   2000
+2003   3000
+
+
+Test
+x_test
+2004
+
+Predict
+4000
+
+Note:
+
+1. If we train and test the with 80:20 proportion, we might some important data as the part of the data.
+2. So to cover the all the ranges of data inside our dataset to get trained
+3. We go for the process called Cross-validation
+4. cross validation is the process letting the model to get train in  different combination
+5. from sklearn.model_selection import cross_val_score
+
+cross_val_score is the function that takes, model , cv model, function to perform in single shot

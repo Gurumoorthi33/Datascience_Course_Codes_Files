@@ -1,0 +1,37 @@
+python correlation coefficient
+
+its explains how much two variables or axix linearly related
+
+
+Mechanism:
+
+pearson's corr
+
+-1,0,1
+
+-1-------->Negative correlation
+1--------->Positive correlation
+0---------> Nothing
+
+
+skewness:
+
+        It is a measure of asymmetry of probability distribution
+
+positive skewness-----> distribution is falling into right side(mean>median>mode)
+negative skewness-----> distribution is falling into left side(mean<median<mode)
+zero     skewness-----> perfectly symmetrical
+
+
+kurtosis:
+
+
+-----> it is the process of 'tailedness'
+
+leptokurtic-----> positive kurtosis
+
+mesokurtic-----> zero
+
+platykurtic-----> negative kurtosis
+
+Exploratory Data Analysis or Data Wrangling

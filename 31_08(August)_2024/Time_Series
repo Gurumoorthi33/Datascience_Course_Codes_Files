@@ -1,0 +1,64 @@
+Time Series Analysis:
+
+It is  the method to analyze the time series data in the order to extract meaningful stats.
+It is used to predict or find the future values based on the previously observed.
+
+Point:
+
+It has two ways to apply:
+
+1. Stationary    ---> Mean, Variance, co-efficient
+
+Uses: It is used for the forecasting.
+
+Example: ADF method
+Augmented Dickey Filler Method.
+
+2. Non-Stationary.
+
+---------------------------------------------------------------------------------------
+
+Notes:
+
+1. UniVariate: ---- Daily stock
+2. MultiVariate --- Temperature,  Rain forecast
+
+Components:
+
+1. Trend ---> Upward, Downward.
+2. Seasonality ---> Season, Repeat Pattern, cycle.
+3. Noise/irregularity ---> Random Variation.
+4. AutoCorrection -------> correlation between the time series with its own past data.
+
+Forecasting Mechanism:
+
+1. Naive Forecasting.
+
+Method: It is easiest and simplest from of forecasting where,  next value is assumed to be same as the last
+observed(lagged) value.
+
+EX: 12c with 12c in today.
+
+naive_forecasting = df["value"].iloc[-1]
+
+2. Moving Average:
+
+Method: Averages based on past  few observations to smooth our fluctuation and highlight longer terms.
+
+moving_average = df["values"].rolling(window = 7).mean()
+
+3. Simple Componential smoothing:
+
+Method: It takes previous data or lagged observations but it gives more weightage to recent one.
+
+
+4. AR(Auto Regressor):
+
+Method: A linear model that predicts the future based on the past value of the same variable.
+
+Data: Stationary
+
+ARIMA: It picks the data by incorporating the influence of past forecast errors on the current prediction.
+
+
+

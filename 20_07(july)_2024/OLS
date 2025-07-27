@@ -1,0 +1,11 @@
+OLS ---> Ordinary least Squares
+Method ---> Regression(continuos data)
+
+It is predominantly used for showing unknown parameter from the given input
+which we can't identified/find using any direct formula
+
+pip install statsmodels
+
+coef ---> increase or increase and decrease in increase like that model in statsmodels
+t-stat ----> null hypothesis
+

@@ -1,0 +1,7 @@
+DBSCAN ----> Density Based spatial clustering of application with noise
+
+note: Clustering is determined based on features simultanesously. (x and y co-ordinate)
+
+distance metrics ----> Eculidean distance
+
+

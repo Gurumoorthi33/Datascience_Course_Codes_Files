@@ -1,0 +1,78 @@
+Naive Bayesian:
+
+Is is an another supervised learning algorithm that works on the basis of probability.
+
+Especially applied for classification.
+
+when to go?
+
+Scenario:
+
+1. SPAM FILTERING.
+2. sentiment Analysis.
+3. Document Category.
+
+
+data = {
+    "word_count":[100,50,200,150,60],
+    "contain_offer":[1,0,1,0,0],
+    "contain_free":[0 ,1,1,0,1],
+    "Is_spam":[1,0,1, 0, 1]
+}
+
+step 1: prior Probability
+
+p(spam) = no.of.spam email/total no.of spam email = 3/5 = 0.6
+p(not spam) = no.of.not spam email / total no.of spam emails = 2/5 = 0.4
+
+step 2: Calculations of likelihood (word_count):
+
+spam Class (is_spam == 1):
+
+Mean: (100+200+60)/3 = 120
+
+Variance = ((100-120)**2 + (200-120)**2 + (60-120)**2 )/3 = 3466.66
+
+
+best Kaggle train set:
+
+https://www.kaggle.com/code/prashant111/naive-bayes-classifier-in-python/notebook
+https://www.kaggle.com/code/jaminjamin/flight-delays-dt-regression-classification
+
+Introduction to Naive Bayes algorithm
+Naive Bayes algorithm intuition
+Types of Naive Bayes algorithm
+Applications of Naive Bayes algorithm
+Import libraries
+Import dataset
+Exploratory data analysis
+Declare feature vector and target variable
+Split data into separate training and test set
+Feature engineering
+Feature scaling
+Model training
+Predict the results
+Check accuracy score
+Confusion matrix
+Classification metrices
+Calculate class probabilities
+ROC - AUC
+k-Fold Cross Validation
+Results and conclusion
+References
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

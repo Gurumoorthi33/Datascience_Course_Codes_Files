@@ -1,0 +1,34 @@
+Principle Component Analysis
+unsupervised Algorithm or Learning
+
+Age   Weight   height
+5       12       4cm
+6       20       4cm
+7       23       4cm
+25      45       4cm
+6       10       4cm
+
+On the above height doesn't play an role and it is nullified
+
+If the variance is set as'0' then it is called as no influence.
+
+Note:
+
+variance is the process of finding the data how much it got deviated from the actual mean of that column
+
+Supervised learning and unsupervised learning are both machine learning techniques that use different types of data to learn and make predictions.
+Supervised learning
+Unsupervised learning
+Data
+Labeled data with known output values
+Unlabeled data without known output values
+Goal
+Learn to map input data to output data
+Discover patterns and insights in data
+Examples of supervised learning Image and speech recognition, Fraud detection, Recommendation systems, Medical diagnosis, and Spam filtering.
+Generative AI is experimental. Learn more
+
+points to be remembered:
+             Eigen values and Eigen vectors
+
+standardised means which have 0 mean and 1 standard deviation

@@ -1,0 +1,13 @@
+iloc--->is the function to read particular location based data
+
+iloc[1,3]--->means it will pick data from 1st index and 3rd column
+
+iloc[1:3,3] means it indicates 1st and 2nd row and pick frm 3rd column
+
+1:3 indicates the 1st and 2nd row(slicing concept)
+for 1:3
+
+1.iloc means it perform operation based on number type.it won't pick the last ending data(excluding the final number)
+
+2.loc means it performs operation based labesl also.only the major it picks the
+last ending number also.this loc will pick 3rd data also

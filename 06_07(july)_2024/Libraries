@@ -1,0 +1,32 @@
+1.matplotlib is the library which we will be using for visualization
+   1.1 For visualizing and attributes
+
+2.pandas is the library which we will be using for dataframe and other aspects
+  2.1 one to read the csv and other files
+  2.2 to conver the actual data into dimensional of (1 and 2)
+
+3.Numpy is the library which we will be using for numeric based activities
+  3.1 converting normal input into array of input
+  3.2 creating various maths  based functions
+
+4.sklearn is the library which we wll be using for executing all the machine learning related aspects
+                             pip install scikit-learn
+
+4.1 for training and testing
+4.2 for checking metrics
+4.3 for using model and its functions
+4.4 for preprocessing
+
+
+Data in genral for input
+
+1. we should have our data in the form of numbers
+1.1 all our models and its properties is working based on the numbers
+
+2. If we pick a column ,if that particular column is not a number,then try to change that particular
+ column to numbers
+ 2.1 we can convert a column when its data is in the form of categorical data
+
+2.1.1 categorical data
+2.1.2 continues data
+2.1.3 count data

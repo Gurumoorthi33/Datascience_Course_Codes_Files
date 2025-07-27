@@ -1,0 +1,36 @@
+Regularization is the process to overcome the problem of overfitting.
+
+problem of overfitting is that it brings too much noise and also to be the part of the output
+
+overfitting can be reduced by introducing some penalty or making some column to zero or picking only few columns.
+
+Regularization Mechanism:
+
+1. L1 Regularization -  Lasso
+2. L2 Regularization -  Ridge
+3. Elastinet
+4. Dropout
+5. Early Stopping
+
+Usages:
+
+1. it helps in model perform better on unseen data.
+2. reduces overfitting.
+3. feature selection.
+
+When to apply these Algorithm;
+
+1. Linear and logistic Regression:
+L1 and L2
+
+2. Neural Networks:
+dropout
+
+3. Support Vector Machine:
+C parameter
+
+4. DecisionTree:
+pruning, Regularization
+
+5. Clustering:
+Regularization, pruning

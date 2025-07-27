@@ -1,0 +1,47 @@
+1. It separates the data by form the HyperPlane.
+2. Both Regressor and Classifier
+3. It can also be used for outliers detection.
+4. It assigns the data to the given Category.
+5. Non probabilistic binary linear classifier.
+
+HyperPlane:
+
+It is the decision boundary to do the classification.
+
+Support Vector:
+
+data points that is close to the Hyperplane. This helps in separation.
+
+Margin:
+
+Inbetween Gaps.
+
+Kernel:
+
+Linear, sigmoid, Polynomial,rbf(radial basis function)  ----> Decides the data line formation.
+
+
+- SVC:
+- Finds a decision boundary (hyperplane) that best separates classes.
+- Uses hinge loss to penalize misclassifications.
+- Ideal for tasks like spam detection, image classification, or disease prediction.
+- SVR:
+- Fits a regression line or curve within a margin of tolerance (epsilon).
+- Uses epsilon-insensitive loss, ignoring errors within a certain threshold.
+- Great for predicting continuous outcomes like house prices or traffic flow.
+
+📊 Evaluation Metrics
+| Model | Common Metrics |
+| SVC | Accuracy, Precision, Recall, F1-Score |
+| SVR | Mean Squared Error (MSE), R² Score, RMSE |
+
+
+
+🧪 Example Use Cases
+- SVC: Classifying whether a transaction is fraudulent or not.
+- SVR: Predicting the future value of a stock based on historical data.
+
+Since you're already exploring SVMs for both classification and regression, you might enjoy experimenting with kernel choices
+ (like RBF or polynomial) and tuning hyperparameters like C, epsilon, and gamma to see how they affect performance across tasks.
+Want to dive deeper into kernel tricks or compare SVMs with other models like decision trees or neural nets? I’ve got plenty of insights to share.
+
