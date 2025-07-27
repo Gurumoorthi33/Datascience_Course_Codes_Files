@@ -1,0 +1,34 @@
+1. CI/CD pipeline
+2. jenkins or Concourse
+
+jenkins---->  new build ----> https://guru.com
+
+build on when: whenever pr is requested
+
+Schedule on timer
+
+1. Jenkins.
+2. GITHUB
+3. cloud(AWS)
+4. DB(SQL OR MANGODB)
+5. python with DB(sql and mangodb)
+6. visual studio code or pycharm.
+7. libraries.
+
+    7.1 python basics
+      datetime, json,csv,multithreading, asyncio, re, os, sys
+
+    7.2 Python advanced:
+       pandas
+       numpy
+       matplotlib
+       seaborn
+       polars
+
+    7.3 Sklearn
+        scipy
+        statsmodels
+        tensorflow
+        torch
+        dash, plotly
+
